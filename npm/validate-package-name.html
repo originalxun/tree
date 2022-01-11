@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>validate-npm-package-name | 树之木</title>
+    <meta name="generator" content="VuePress 1.9.5">
+    
+    <meta name="description" content="never give up">
+    
+    <link rel="preload" href="/tree-blod/assets/css/0.styles.12565279.css" as="style"><link rel="preload" href="/tree-blod/assets/js/app.c79a225f.js" as="script"><link rel="preload" href="/tree-blod/assets/js/2.6ca15a82.js" as="script"><link rel="preload" href="/tree-blod/assets/js/11.3fb9b15d.js" as="script"><link rel="prefetch" href="/tree-blod/assets/js/10.013edf68.js"><link rel="prefetch" href="/tree-blod/assets/js/12.7d9d1341.js"><link rel="prefetch" href="/tree-blod/assets/js/13.a492b3c4.js"><link rel="prefetch" href="/tree-blod/assets/js/3.98ae3056.js"><link rel="prefetch" href="/tree-blod/assets/js/4.4466df2d.js"><link rel="prefetch" href="/tree-blod/assets/js/5.02018b5a.js"><link rel="prefetch" href="/tree-blod/assets/js/6.bd7b0c2a.js"><link rel="prefetch" href="/tree-blod/assets/js/7.2c2a7d27.js"><link rel="prefetch" href="/tree-blod/assets/js/8.c02ba4af.js"><link rel="prefetch" href="/tree-blod/assets/js/9.02d545b6.js">
+    <link rel="stylesheet" href="/tree-blod/assets/css/0.styles.12565279.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/tree-blod/" class="home-link router-link-active"><!----> <span class="site-name">树之木</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tree-blod/vue/" class="nav-link">
+  vue.js
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/node/" class="nav-link">
+  node.js
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/vite/" class="nav-link">
+  vite
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/npm/" class="nav-link router-link-active">
+  npm
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/react/" class="nav-link">
+  React
+</a></li></ul></div></div><div class="nav-item"><a href="/tree-blod/js/" class="nav-link">
+  javascript
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tree-blod/java/" class="nav-link">
+  java
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/spring/" class="nav-link">
+  spring
+</a></li></ul></div></div><div class="nav-item"><a href="/tree-blod/dbase/" class="nav-link">
+  数据库
+</a></div><div class="nav-item"><a href="/tree-blod/algorithm/" class="nav-link">
+  数据结构和算法
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tree-blod/vue/" class="nav-link">
+  vue.js
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/node/" class="nav-link">
+  node.js
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/vite/" class="nav-link">
+  vite
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/npm/" class="nav-link router-link-active">
+  npm
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/react/" class="nav-link">
+  React
+</a></li></ul></div></div><div class="nav-item"><a href="/tree-blod/js/" class="nav-link">
+  javascript
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tree-blod/java/" class="nav-link">
+  java
+</a></li><li class="dropdown-item"><!----> <a href="/tree-blod/spring/" class="nav-link">
+  spring
+</a></li></ul></div></div><div class="nav-item"><a href="/tree-blod/dbase/" class="nav-link">
+  数据库
+</a></div><div class="nav-item"><a href="/tree-blod/algorithm/" class="nav-link">
+  数据结构和算法
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="validate-npm-package-name"><a href="#validate-npm-package-name" class="header-anchor">#</a> validate-npm-package-name</h1> <p>学习人：木木</p> <p>学习时间📅: 2022.01.04 11:13:21</p> <p>学习地址：</p> <p>概述：</p> <ol><li>了解 validate-npm-package-name的使用场景和作用；</li> <li>阅读源码内容。</li></ol> <p>补充：</p> <ul><li>node源码仓库地址：https://github.com/npm</li> <li>vue源码仓库地址：https://github1s.com/vuejs/vuex</li></ul> <h2 id="使用场景和作用"><a href="#使用场景和作用" class="header-anchor">#</a> 使用场景和作用</h2> <h3 id="如何查看运行过程中加载的源码文件"><a href="#如何查看运行过程中加载的源码文件" class="header-anchor">#</a> 如何查看运行过程中加载的源码文件？</h3> <ol><li><p>进入已经创建好的项目中，查看package.json的文件；</p></li> <li><p>在scripts上点击调试，点击build（如图-1）；</p> <p><img src="C:%5CUsers%5CPOET%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220104150048908.png" alt="image-20220104150048908"></p> <p>​																							图-1 package.json文件</p></li> <li><p>通过命令：</p> <div class="language- extra-class"><pre class="language-text"><code>cd .. 
+</code></pre></div><p>（记得cd和..直接有个空格）退出当前文件；</p></li> <li><p>输入命令：</p> <div class="language- extra-class"><pre class="language-text"><code>vue create project-name
+</code></pre></div><p>选择vue的版本后打开调试窗口（如图-2）。可以看到在已载入的脚本中出现了一个craete.js的源码文件。这个文件就是我们在创建项目中起作用的其中一个文件。</p> <p><img src="C:%5CUsers%5CPOET%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220104145920858.png" alt="image-20220104145920858"></p> <p>​																							图-2 调试状态下加载的源文件</p></li></ol> <h3 id="使用场景和作用总结"><a href="#使用场景和作用总结" class="header-anchor">#</a> 使用场景和作用总结</h3> <p>**使用场景：**通过查看运行过程中加载的源码文件这一过程可以看出，我们在创建项目的时候会用到validate-npm-package-name这个包。</p> <p>**作用：**validate-npm-package-name这个包，顾名思义：验证npm包名称。我们在创建项目时，验证我们定义的项目名是否合法。</p> <h2 id="命名规则"><a href="#命名规则" class="header-anchor">#</a> 命名规则</h2> <ul><li>看下面源码备注</li></ul> <h2 id="源码理解"><a href="#源码理解" class="header-anchor">#</a> 源码理解</h2> <p>源码：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 导出validate的包</span>
+<span class="token keyword">var</span> validate <span class="token operator">=</span> module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+ <span class="token keyword">var</span> warnings <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+ <span class="token keyword">var</span> errors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+
+ <span class="token comment">// 1.定义命名规则</span>
+ <span class="token keyword">if</span> <span class="token punctuation">(</span>name <span class="token operator">===</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name cannot be null'</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span>warnings<span class="token punctuation">,</span> errors<span class="token punctuation">)</span>
+
+ <span class="token punctuation">}</span>
+
+ <span class="token keyword">if</span> <span class="token punctuation">(</span>name <span class="token operator">===</span> <span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name cannot be undefined'</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span>warnings<span class="token punctuation">,</span> errors<span class="token punctuation">)</span>
+
+ <span class="token punctuation">}</span>
+
+ <span class="token comment">// 名称必须为字符串</span>
+ <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> name <span class="token operator">!==</span> <span class="token string">'string'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name must be a string'</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span>warnings<span class="token punctuation">,</span> errors<span class="token punctuation">)</span>
+
+ <span class="token punctuation">}</span>
+
+ <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>name<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name length must be greater than zero'</span><span class="token punctuation">)</span>
+
+ <span class="token punctuation">}</span>
+
+<span class="token comment">//不能包含特殊字符</span>
+ <span class="token keyword">if</span> <span class="token punctuation">(</span>name<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^\.</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name cannot start with a period'</span><span class="token punctuation">)</span>
+
+ <span class="token punctuation">}</span>
+
+ <span class="token comment">// 不能以_（下划线）开头</span>
+ <span class="token keyword">if</span> <span class="token punctuation">(</span>name<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^_</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name cannot start with an underscore'</span><span class="token punctuation">)</span>
+
+ <span class="token punctuation">}</span>
+
+ <span class="token keyword">if</span> <span class="token punctuation">(</span>name<span class="token punctuation">.</span><span class="token function">trim</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">!==</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name cannot contain leading or trailing spaces'</span><span class="token punctuation">)</span>
+
+ <span class="token punctuation">}</span>
+ 
+ <span class="token comment">// 错误信息</span>
+  blacklist<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">blacklistedName</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>name<span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">===</span> blacklistedName<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>blacklistedName <span class="token operator">+</span> <span class="token string">' is a blacklisted name'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// Generate warnings for stuff that used to be allowed</span>
+
+  <span class="token comment">// npm中的核心包名一致</span>
+  builtins<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">builtin</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>name<span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">===</span> builtin<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      warnings<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>builtin <span class="token operator">+</span> <span class="token string">' is a core module name'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// really-long-package-names-------------------------------such--length-----many---wow</span>
+  <span class="token comment">// 长度不能超过214</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>name<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> <span class="token number">214</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    warnings<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name can no longer contain more than 214 characters'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// mIxeD CaSe nAMEs</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>name<span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">!==</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    warnings<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name can no longer contain capital letters'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+ <span class="token comment">// 不能包含特殊字符</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">[~'!()*]</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>name<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    warnings<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name can no longer contain special characters (&quot;~\'!()*&quot;)'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  
+  <span class="token comment">// 不能跟包名一致</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">encodeURIComponent</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span> <span class="token operator">!==</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Maybe it's a scoped package name, like @user/package</span>
+    <span class="token keyword">var</span> nameMatch <span class="token operator">=</span> name<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span>scopedPackagePattern<span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>nameMatch<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">var</span> user <span class="token operator">=</span> nameMatch<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+      <span class="token keyword">var</span> pkg <span class="token operator">=</span> nameMatch<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">encodeURIComponent</span><span class="token punctuation">(</span>user<span class="token punctuation">)</span> <span class="token operator">===</span> user <span class="token operator">&amp;&amp;</span> <span class="token function">encodeURIComponent</span><span class="token punctuation">(</span>pkg<span class="token punctuation">)</span> <span class="token operator">===</span> pkg<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span>warnings<span class="token punctuation">,</span> errors<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    errors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'name can only contain URL-friendly characters'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span>warnings<span class="token punctuation">,</span> errors<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+validate<span class="token punctuation">.</span>scopedPackagePattern <span class="token operator">=</span> scopedPackagePattern
+
+<span class="token keyword">var</span> <span class="token function-variable function">done</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">warnings<span class="token punctuation">,</span> errors</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> result <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> errors<span class="token punctuation">.</span>length <span class="token operator">===</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> warnings<span class="token punctuation">.</span>length <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> errors<span class="token punctuation">.</span>length <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">warnings</span><span class="token operator">:</span> warnings<span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> errors
+  <span class="token punctuation">}</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>result<span class="token punctuation">.</span>warnings<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token keyword">delete</span> result<span class="token punctuation">.</span>warnings
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>result<span class="token punctuation">.</span>errors<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token keyword">delete</span> result<span class="token punctuation">.</span>errors
+  <span class="token keyword">return</span> result
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="测试"><a href="#测试" class="header-anchor">#</a> 测试</h2> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token string">'use strict'</span>
+
+<span class="token keyword">var</span> validate <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'..'</span><span class="token punctuation">)</span>
+<span class="token keyword">var</span> test <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'tap'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>test
+
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'validate-npm-package-name'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">t</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Traditional</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'some-package'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'example.com'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'under_score'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'period.js'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'123numeric'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'crazy!'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">warnings</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name can no longer contain special characters (&quot;~\'!()*&quot;)'</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// Scoped (npm 2+)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'@npm/thingy'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'@npm-zors/money!time.js'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">warnings</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name can no longer contain special characters (&quot;~\'!()*&quot;)'</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// Invalid</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name length must be greater than zero'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name length must be greater than zero'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'.start-with-period'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name cannot start with a period'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'_start-with-underscore'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name cannot start with an underscore'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'contain:colons'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name can only contain URL-friendly characters'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">' leading-space'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name cannot contain leading or trailing spaces'</span><span class="token punctuation">,</span> <span class="token string">'name can only contain URL-friendly characters'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'trailing-space '</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name cannot contain leading or trailing spaces'</span><span class="token punctuation">,</span> <span class="token string">'name can only contain URL-friendly characters'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'s/l/a/s/h/e/s'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name can only contain URL-friendly characters'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'node_modules'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'node_modules is a blacklisted name'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'favicon.ico'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'favicon.ico is a blacklisted name'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// Node/IO Core</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'http'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">warnings</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'http is a core module name'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// Long Package Names</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'ifyouwanttogetthesumoftwonumberswherethosetwonumbersarechosenbyfindingthelargestoftwooutofthreenumbersandsquaringthemwhichismultiplyingthembyitselfthenyoushouldinputthreenumbersintothisfunctionanditwilldothatforyou-'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">warnings</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name can no longer contain more than 214 characters'</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'ifyouwanttogetthesumoftwonumberswherethosetwonumbersarechosenbyfindingthelargestoftwooutofthreenumbersandsquaringthemwhichismultiplyingthembyitselfthenyoushouldinputthreenumbersintothisfunctionanditwilldothatforyou'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// Legacy Mixed-Case</span>
+
+  t<span class="token punctuation">.</span><span class="token function">deepEqual</span><span class="token punctuation">(</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token string">'CAPITAL-LETTERS'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">validForNewPackages</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">validForOldPackages</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">warnings</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'name can no longer contain capital letters'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  t<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/tree-blod/assets/js/app.c79a225f.js" defer></script><script src="/tree-blod/assets/js/2.6ca15a82.js" defer></script><script src="/tree-blod/assets/js/11.3fb9b15d.js" defer></script>
+  </body>
+</html>
